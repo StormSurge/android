@@ -1,0 +1,9 @@
+\*.DS_Store
+bin/*
+gen/*
+tmp/*
+*.swp
+**/*.swp
+out/*
+.idea/workspace.xml
+.idea/tasks.xml
