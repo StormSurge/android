@@ -9,5 +9,12 @@
             android:layout_height="wrap_content"
             android:text="Hello World, Home"
             />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showPower"
+            android:text="Show Power Settings"/>
+
 </LinearLayout>
 
