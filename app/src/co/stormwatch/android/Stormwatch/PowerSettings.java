@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.CheckBox;
 
 /**
  * Created with IntelliJ IDEA.
@@ -25,7 +26,15 @@ public class PowerSettings extends BaseActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.power_settings);
 
-
+        final CheckBox checkBox = (CheckBox) findViewById(R.id.cycleAirplane);
+        checkBox
+                .setOnClickListener(new View.OnClickListener()
+                {
+                    public void onClick(View v)
+                    {
+                        AirplaneCycle.toggleCycle(PowerSettings.this, checkBox.isChecked());
+                    }
+                });
     }
 
     public void showBT(View view)

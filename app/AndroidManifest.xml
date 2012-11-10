@@ -16,5 +16,6 @@
         <activity android:name=".PowerSettings"/>
         <activity android:name=".AlertMap"/>
 
+        <service android:name=".AirplaneToggleService"/>
     </application>
 </manifest>
