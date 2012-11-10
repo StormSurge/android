@@ -20,4 +20,9 @@ public class Home extends BaseActivity
     {
         PowerSettings.callMe(this);
     }
+
+    public void showUserContacts(View v)
+    {
+        ManageContacts.callMe(this);
+    }
 }

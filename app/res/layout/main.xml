@@ -16,5 +16,11 @@
             android:onClick="showPower"
             android:text="Show Power Settings"/>
 
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showUserContacts"
+            android:text="Show User Contacts"/>
+
 </LinearLayout>
 
